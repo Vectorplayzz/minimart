@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Builds and old build copies
+dist/
+dist.backup/
+dist_old*/
+
+# Logs
+*.log
+
+# Secrets (keep the examples)
+.env
+.env.*
+!.env.example
+
+# Maintenance backups (may contain credentials)
+*.bak
+*.bak-*
+
+# Trained model artifacts
+ai-service/models/
