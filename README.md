@@ -2,6 +2,20 @@
 
 A comprehensive inventory management system with AI-powered demand prediction, stock transfers, and smart insights for multi-branch retail chains.
 
+## 🚀 Live Demo
+
+**[minimart.ourspaces.net](https://minimart.ourspaces.net)**: a showcase deployment with sample data (5 branches, 40 products, 30 days of sales).
+
+Sign in with any of these demo accounts to see how each role's view differs:
+
+| Role | Username | Password | Can access |
+|------|----------|----------|------------|
+| Admin | `admin` | `admin123` | Everything: products, branches, reports, ML forecasts |
+| Manager | `manager` | `manager123` | Inventory, transfers, sales, reports and insights |
+| Staff | `staff_downtown` | `staff123` | Inventory and sales for the Downtown Store only |
+
+> Demo data is shared by every visitor and may be reset at any time. Please don't enter real information.
+
 ## Features
 
 ### 1. Authentication & Roles
@@ -195,7 +209,9 @@ The frontend will run on `http://localhost:3000`
 |------|----------|----------|
 | Admin | admin | admin123 |
 | Manager | manager | manager123 |
-| Staff | staff | staff123 |
+| Staff | staff_downtown | staff123 |
+
+Seeding also creates `staff_north`, `staff_south` and `staff_east` (password `staff123`), one for each store.
 
 ## Role Permissions
 
